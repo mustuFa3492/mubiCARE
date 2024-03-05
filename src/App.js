@@ -1,9 +1,10 @@
-import './App.css';
-import NavigationBar from './Components/Molecules/NavigationBar';
+import "./App.css";
+import AuthPage from "./Components/Templates/AuthPage";
+
 function App() {
   return (
     <div>
-      <NavigationBar/>
+      <AuthPage />
     </div>
   );
 }
